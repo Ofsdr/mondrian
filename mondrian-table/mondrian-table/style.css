@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 15px;
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 0 0 25px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.mondrian {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 8px solid #111111;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: #ffffff;
+}
+
+.mondrian td {
+    padding: 0;
+    border: 8px solid #111111;
+}
+
+.col-1 { width: 11%; }
+.col-2 { width: 13%; }
+.col-3 { width: 13%; }
+.col-4 { width: 13%; }
+.col-5 { width: 13%; }
+.col-6 { width: 16%; }
+.col-7 { width: 16%; }
+.col-8 { width: 5%; }
+
+.row-1 { height: 12%; }
+.row-2 { height: 13%; }
+.row-3 { height: 13%; }
+.row-4 { height: 21%; }
+.row-5 { height: 13%; }
+.row-6 { height: 13%; }
+.row-7 { height: 10%; }
+.row-8 { height: 5%; }
+
+.red {
+    background-color: #f21b12;
+}
+
+.yellow {
+    background-color: #ffd51c;
+}
+
+.blue {
+    background-color: #1717ad;
+}
+
+.black {
+    background-color: #050505;
+}
+
+
